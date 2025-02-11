@@ -7,7 +7,7 @@ from enum import Enum, auto
 
 load_dotenv()  # This loads the environment variables from the .env file.
 
-bot_token = os.getenv('TELEGRAM_TOKEN')
+bot_token = 7685160143:AAGeRBvJoC8ks2v58NwY_UTERD7Q7seutIw
 bot = telebot.TeleBot(bot_token)
 
 user_info = {}
